@@ -1,0 +1,67 @@
+/*------------ rewrite bootstrap.css*/
+@media (max-width: 768px) {
+    .submenu .container{
+        overflow-x:scroll;
+        width:100%;
+    }
+}
+
+
+.navbar-wrapper .navbar{
+	border-radius: 0;
+	/*border-bottom:1px solid rgba(242,102,7,0.3); */
+}
+
+.navbar-inverse {
+    background-color: rgba(255,255,255,1);
+    border: 0px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #aaa;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #aaa;
+}
+
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover
+ {
+	border-color: rgba(242,102,7,0.5);
+    background-color: rgba(242,102,7,0.3);
+}
+.navbar-inverse .navbar-toggle:focus .icon-bar,
+.navbar-inverse .navbar-toggle:hover .icon-bar
+{
+	background-color: rgba(242,102,7,0.6);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgba(242,102,7,0.3);
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover{
+	letter-spacing:5px;
+    color: #fff;
+    background-color: rgba(242,102,7,0.9);
+}
+
+.navbar-inverse .navbar-nav>li>a:focus{
+  color: #ccc;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	letter-spacing:5px;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover{
+	letter-spacing:5px;
+    color: #fff;
+    background-color: rgba(242,102,7,0.9);
+}

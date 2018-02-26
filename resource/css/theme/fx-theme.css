@@ -1,0 +1,95 @@
+
+.fx-theme-star .layui-btn{
+    background: #4476A7;
+}
+
+
+.fx-theme-star .layui-header{
+    background-color:rgba(0,0,0,0);
+    background-image: url(../../../resource/images/base/theme/star/header-bg.jpg);
+    background-size: 1920px 60px;
+    background-repeat: no-repeat;
+}
+
+.fx-theme-star .layui-side{
+    background-image: url(../../../resource/images/base/theme/star/left-bg.jpg);
+    background-size: 200px 1020px;
+    background-repeat: no-repeat;
+}
+
+.fx-theme-star .layui-side .layui-nav{
+    background-color:rgba(0,0,0,0);
+}
+
+.fx-theme-star .layui-side .layui-this>a:hover{
+    background-color: rgba(0,150,136,.3);
+    color:#FFFFFF;
+}
+.fx-theme-star .layui-side .layui-nav-root{
+    background-color: rgba(0,0,0,.1)!important;
+}
+
+.fx-theme-star .layui-side .layui-nav-child{
+    background-color: rgba(0,0,0,0)!important;
+}
+
+/******winter*******/
+.fx-theme-winter{
+    background-image: url(../../../resource/images/base/theme/winter/body-bg.jpg);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+}
+
+.fx-theme-winter .layui-header{
+    background-color:rgba(0,0,0,0);
+}
+
+.fx-theme-winter .layui-body {
+    background-color: rgba(255,255,255,.9);
+    border-radius: 3px;
+}
+
+.fx-theme-winter .layui-footer {
+    background-color: rgba(255,255,255,.3);
+    color:#FFFFFF;
+    border-radius: 3px;
+}
+/*
+.fx-theme-winter .layui-header{
+    background-image: url(../../../resource/images/base/theme/winter/header-bg.jpg);
+    background-size: 1920px 60px;
+    background-repeat: no-repeat;
+}
+
+.fx-theme-winter .layui-side{
+    background-image: url(../../../resource/images/base/theme/winter/left-bg.jpg);
+    background-size: 200px 1020px;
+    background-repeat: no-repeat;
+}
+*/
+
+.fx-theme-winter .layui-side .layui-nav{
+    background-color:rgba(0,0,0,0);
+}
+
+
+.fx-theme-winter .layui-nav-tree .layui-nav-child dd.layui-this, 
+.fx-theme-winter .layui-nav-tree .layui-nav-child dd.layui-this a, 
+.fx-theme-winter .layui-nav-tree .layui-this, 
+.fx-theme-winter .layui-nav-tree .layui-this>a, 
+.fx-theme-winter .layui-nav-tree .layui-this>a:hover{
+    background-color: rgba(0,150,136,.2)!important;
+    color:#FFFFFF;
+}
+.fx-theme-winter .layui-side .layui-nav-root{
+    background-color: rgba(0,0,0,.1)!important;
+}
+
+.fx-theme-winter .layui-side .layui-nav-child{
+    background-color: rgba(0,0,0,0)!important;
+}
+
+.fx-theme-winter fieldset{
+    border-color: rgba(0, 150, 136, 0.42);
+}
+/******winter end*******/
